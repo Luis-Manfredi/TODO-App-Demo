@@ -71449,10 +71449,12 @@ H(a,b){var s,r,q,p=this,o=null,n="Search task name",m=b.K(t.w).f.a,l=m.a,k=t.p,j
 if(l>850){s=A.Z(o,o,B.q,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
 j.push(A.bf(A.a([A.ar(o,A.alr(!0,B.bA,!1,o,p.Q,B.ao,o,o,2,A.Ij(o,B.e8,o,B.by,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,A.Z(o,o,B.q,o,o,o,o,o,o,o,o,14,o,o,o,o,!0,o,o,o,o,o,o,o,o),n,o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,p.NQ(),o,o,o,o),!0,o,!0,o,!1,o,o,o,o,o,o,1,o,o,!1,"\u2022",p.gDm(),o,o,o,!1,o,o,B.by,o,o,o,o,o,o,s,B.br,o,B.lU,o,o,o),B.k,o,o,new A.bu(B.o,o,o,B.cA,o,o,B.K),o,45,o,o,o,o,240),B.b_,A.ar(o,A.dH(o,!0,A.bX(B.eu,B.q,o),o,new A.agc(),B.a0,o,o),B.k,o,o,new A.bu(B.o,o,o,B.bi,o,o,B.K),o,o,o,B.bk,o,o,o),B.b_,A.ar(o,A.dH(o,!0,A.bX(B.hs,B.q,o),o,new A.agd(),B.a0,o,o),B.k,o,o,new A.bu(B.o,o,o,B.bi,o,o,B.K),o,o,o,B.bk,o,o,o)],k),B.r,B.H,B.ai))}j=A.bf(j,B.r,B.y,B.t)
 s=p.A2(b)
-j=A.a([j,B.cr,s,A.bT(o,l<500?60:40,o)],k)
+r=l<500
+j=A.a([j,B.cr,s,A.bT(o,r?60:40,o)],k)
 s=l<850
-if(s){r=A.Z(o,o,B.q,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
-j.push(A.ar(o,A.alr(!0,B.bA,!1,o,p.Q,B.ao,o,o,2,A.Ij(o,B.e8,o,B.by,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,A.Z(o,o,B.q,o,o,o,o,o,o,o,o,16,o,o,o,o,!0,o,o,o,o,o,o,o,o),n,o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,p.NQ(),o,o,o,o),!0,o,!0,o,!1,o,o,o,o,o,o,1,o,o,!1,"\u2022",p.gDm(),o,o,o,!1,o,o,B.by,o,o,o,o,o,o,r,B.br,o,B.lU,o,o,o),B.k,o,o,new A.bu(B.o,o,o,B.cA,o,o,B.K),o,50,B.DZ,o,o,o,l))}s=s?500:350
+if(s){r=r?60:50
+q=A.Z(o,o,B.q,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
+j.push(A.ar(o,A.alr(!0,B.bA,!1,o,p.Q,B.ao,o,o,2,A.Ij(o,B.e8,o,B.by,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,A.Z(o,o,B.q,o,o,o,o,o,o,o,o,16,o,o,o,o,!0,o,o,o,o,o,o,o,o),n,o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,p.NQ(),o,o,o,o),!0,o,!0,o,!1,o,o,o,o,o,o,1,o,o,!1,"\u2022",p.gDm(),o,o,o,!1,o,o,B.by,o,o,o,o,o,o,q,B.br,o,B.lU,o,o,o),B.k,o,o,new A.bu(B.o,o,o,B.cA,o,o,B.K),o,r,B.DZ,o,o,o,l))}s=s?500:350
 r=A.a([new A.e1(2,B.dc,A.ag(B.e.ap(25.5),0,0,0),B.j,2)],t.sq)
 q=p.f<0?A.eP(A.a6("Click on a card to see the list of tasks",o,o,o,A.Z(o,o,B.ab,o,o,o,o,o,o,o,o,32,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.d3,o),o,o):p.abv(m)
 j.push(A.ar(o,q,B.k,o,o,new A.bu(B.q,o,o,B.fK,r,o,B.K),o,s,o,B.dq,o,o,l))
